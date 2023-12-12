@@ -15,33 +15,18 @@ import React from 'react'
 import './App.css';
 import ClassCom from './Component/ClassCom';
 import FunctionalCom from './Component/FunctionalCom';
+import PropsClass from './Day4/PropsClass';
+import PropsFunctional from './Day4/PropsFunctional';
+import StaetClassCom from './Day4/StateClassCom';
 export default function App() {
   return (
-    // <div className='divForm'>
-    // <form>
-    //     <h2>•  Registration Form  •</h2>
-    //     <br></br>
-    //     <input type='text' placeholder='Username'></input>
-    //     <br></br>
-    //     <br></br>
-    //     <input type='password' placeholder='Password'></input>
-    //     <br></br>
-    //     <br></br>
-    //     <input type='text' placeholder='Email'></input>
-    //     <br></br>
-    //     <br></br>
-    //     <input type='text' placeholder='Phone'></input>
-    //     <br></br>
-    //     <br></br>
-    //     <input class='submit' type='submit' value='Create Account'></input>
-    //     <br></br>
-    //     <br></br>
-    //   </form>      
-    // </div>
     <div>
         <ClassCom></ClassCom>
         <FunctionalCom></FunctionalCom>
-      </div>
+        <PropsFunctional name="BHarath"></PropsFunctional> 
+        <PropsClass class="It-A"></PropsClass>
+        <StaetClassCom></StaetClassCom>
+        </div>
   );
 };
 

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// import SamApp1 from './Asset/SamApp1';
 const age=15;
 var disp= <h2>{age > 18 ? "eligible": "not eligible"}</h2>
 
