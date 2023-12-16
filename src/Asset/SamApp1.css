@@ -1,38 +1,45 @@
-.divForm
+.division
 {
-   
-  height:485px;
-  padding-top: 100px;
-  padding-left:420px;
-  background-image: url("DivBackground.avif");
+  display: flex;
+  height:550px;
+  padding-top: 70px;
+  padding-left: 425px;
+  background-color: white;
   background-size: cover;
+  background-image: url("stockman1.png");
     
 }
 form
 {
   text-align: center;
   background-color: white;
-  border: 1px solid blue;
+  border: 1px solid grey;
+  border-radius: 5px;
   height: 450px;
   width: 400px;
   border-width: 1px;
+  /* background: transparent;
+  backdrop-filter: blur(5px); */
 }
 input
 {
-  border-style:none;
+  border: none;
+  /* border-style:none;
   border-color: white;
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid white; */
   width: 300px;
   height: 40px;
+  outline: none;
+  border-radius: 5px;
 }
 input:focus
 {
-  background-image: linear-gradient(to right,lightblue,violet);
+  background-color: #e76d40;
   /* border-color: white; */
 }
 input:hover
 {
-  box-shadow: 0 0 3px 2px lightblue;
+  box-shadow: 0 0 10px 4px #e76d40;
 }
 ::placeholder
 {
@@ -41,16 +48,16 @@ input:hover
 }
 .submit 
 {
-  background-image: linear-gradient(to right,rgb(143, 206, 228),rgb(235, 161, 235));
+  background-color: #e76d40;
   font-size: 120%;
   font-weight: 200;
   padding-top: 5px;
-  border-radius: 12px;
+  border-radius: 5px;
   border-bottom: white;
   text-align: center;
   cursor: pointer;
 }
 .submit:hover
 {
-    box-shadow: 0 0 3px 2px lightblue;
+    box-shadow: 0 0 10px 4px #e76d40;
 }
